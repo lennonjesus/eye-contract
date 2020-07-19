@@ -3,6 +3,16 @@ pragma experimental ABIEncoderV2;
 
 import { StringUtils } from "./StringUtils.sol";
 
+/**
+ * Implementacao de contrato inteligente para registro de propriedade
+ * intelectual de arquivos e venda de licencas de utilizacao.
+ *
+ * @author Cirilo Xavier
+ * @author Jorge Melo
+ * @author Lennon Jesus
+ * @author Kedson Kede
+ * @author Paula Nazareth
+ */ 
 contract EyeContract {
 
     string[] internal registeredFiles;
